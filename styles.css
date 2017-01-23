@@ -1,0 +1,98 @@
+/* TODO: 
+- blau dunkler machen 
+- port to less
+- use variables for colors§*/
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
+
+body {
+  background-color: #222;
+  font-family: 'Open+Sans', sans-serif;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #222;
+  border: 0;
+  border-radius: 0;
+  color: #aaa;
+  font-family: 'Dosis', sans-serif;
+  padding-top: 15px;
+}
+
+h1, h2, h3 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1 small, h1 .small, h2 small, h2 .small, h3, .text-highlight, .highlight {
+  color: #FF9400;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+.container-fluid {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar a:hover {
+  color: #FF9400 !important;
+}
+
+.navbar a .active {
+  color: #FF9400 !important;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bg-1 {
+  background-color:#0963AB;
+  color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+
+/*
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.bg-1 {
+  background-color: #0963AB;
+  color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #474e5d;
+  color: #ffffff;
+}
+
+.bg-3 {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}*/
